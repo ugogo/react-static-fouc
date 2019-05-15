@@ -1,0 +1,51 @@
+{
+  "name": "react-static-example-basic",
+  "version": "6.0.0-beta.30",
+  "main": "index.js",
+  "proxy": "http://localhost:3001",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "build": "react-static build",
+    "bundle": "react-static bundle",
+    "export": "react-static export",
+    "serve": "serve dist -p 3001",
+    "lint": "eslint --config=.eslintrc.js 'src/**/*.js'"
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "axios": "^0.18.0",
+    "babel-plugin-universal-import": "^4.0.0",
+    "braintree-web": "^3.44.2",
+    "classnames": "^2.2.6",
+    "date-fns": "^1.30.1",
+    "dotenv": "^8.0.0",
+    "evergreen-ui": "^4.15.0",
+    "final-form": "^4.12.0",
+    "paypal-checkout": "^4.0.267",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.5.0",
+    "react": "^16.8.6",
+    "react-day-picker": "^7.3.0",
+    "react-dom": "^16.8.6",
+    "react-final-form": "^4.1.0",
+    "react-hot-loader": "^4.8.4",
+    "react-static": "^7.0.10",
+    "react-static-plugin-reach-router": "^7.0.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-react-app": "^4.0.0",
+    "eslint-config-react-tools": "1.x.x",
+    "eslint-plugin-flowtype": "^3.7.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.17.0",
+    "serve": "11.0.0"
+  }
+}
